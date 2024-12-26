@@ -112,6 +112,7 @@ import Control.Lens hiding
     (#),
     (<.>),
   )
+import Control.Monad.Catch
 import Control.Monad.Extra hiding (fail, forM, mconcatMapM, whileJustM)
 import Control.Monad.Extra qualified as Monad
 import Control.Monad.Fix
@@ -140,7 +141,6 @@ import Data.HashSet (HashSet)
 import Data.HashSet qualified as HashSet
 import Data.Hashable
 import Data.Int
-import Control.Monad.Catch
 import Data.IntMap.Strict (IntMap)
 import Data.IntMap.Strict qualified as IntMap
 import Data.IntSet (IntSet)
